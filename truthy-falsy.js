@@ -11,8 +11,8 @@
 // * false
 // * 0
 // * ""
-
-const a = 'hello';
+// * null
+const a = 'This is a positive value';
 
 if (a){
     console.log ('This is a truthy value');
@@ -20,4 +20,4 @@ if (a){
 
 else {
     console.log ('This is a falsy value');
-}
+} 
