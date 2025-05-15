@@ -9,9 +9,24 @@
 
 
 const a = 5;
-const b = '5';
+const b = [5];
 
 if (a === b){
+    console.log ('Values are equal');
+}
+
+else {
+    console.log ('Values are not equal');
+}
+
+
+// ________________________________________________________
+// difference between == and === equal
+
+let step1 = 50;
+let step2 = [50];
+
+if (step1 == step2){
     console.log ('Values are equal');
 }
 
